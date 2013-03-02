@@ -24,7 +24,7 @@ description = _("\
 
 [options]
 global_init_techs=""
-global_init_buildings=""
+global_init_buildings="Palace"
 
 [civstyle]
 ; Value added to city pollution
