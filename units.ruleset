@@ -349,7 +349,7 @@ Upkeep for Settlers is in food as well as production, and a Settler\
 [unit_worker]
 name          = _("?unit:Workers")
 class         = "Land"
-tech_req      = "Pottery"
+tech_req      = "Feudalism"
 obsolete_by   = "Engineers"
 graphic       = "u.worker"
 graphic_alt   = "u.engineers" ; for compatibility
@@ -382,7 +382,7 @@ Workers are similar to Settlers in that they can improve terrain --\
 [unit_engineers]
 name          = _("Engineers")
 class         = "Land"
-tech_req      = "Explosives"
+tech_req      = "Engineering"
 obsolete_by   = "None"
 graphic       = "u.engineers"
 graphic_alt   = "-"
@@ -618,7 +618,7 @@ Musketeers are infantry equipped with early\
 name          = _("Fanatics")
 class         = "Land"
 tech_req      = "Fundamentalism"
-gov_req       = "Fundamentalism"
+gov_req       = "Theocracy"
 obsolete_by   = "None"
 graphic       = "u.fanatics"
 graphic_alt   = "-"
@@ -645,7 +645,7 @@ roles         = "DefendGood"
 helptext      = _("\
 Fanatics are warriors extremely devoted to a higher cause.\
 "), _("\
-Fundamentalist nations can maintain Fanatic units without\
+Theocratic nations can maintain Fanatic units without\
  having to pay any shields for upkeep.\
 ")
 

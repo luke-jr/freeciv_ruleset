@@ -218,7 +218,7 @@ name		= _("Cathedral")
 genus		= "Improvement"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Monotheism", "Player"
+      "Tech", "Christianity", "Player"
       "Building", "Temple", "City"
     }
 graphic	= "b.cathedral"
@@ -333,7 +333,7 @@ name		= _("Granary")
 genus		= "Improvement"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Pottery", "Player"
+      "Tech", "Philosophy", "Player"
     }
 graphic	= "b.granary"
 graphic_alt	= "-"
@@ -409,7 +409,7 @@ name		= _("Library")
 genus		= "Improvement"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Writing", "Player"
+      "Tech", "Literacy", "Player"
     }
 graphic	= "b.library"
 graphic_alt	= "-"
@@ -429,7 +429,7 @@ name		= _("Marketplace")
 genus		= "Improvement"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Currency", "Player"
+      "Tech", "Trade", "Player"
     }
 graphic	= "b.marketplace"
 graphic_alt	= "-"
@@ -547,7 +547,7 @@ genus		= "SmallWonder"
 flags		= "SaveSmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Masonry", "Player"
+      "Tech", "Monarchy", "Player"
     }
 graphic	= "b.palace"
 graphic_alt	= "-"
@@ -948,7 +948,7 @@ name		= _("Temple")
 genus		= "Improvement"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Ceremonial Burial", "Player"
+      "Tech", "Mysticism", "Player"
     }
 graphic	= "b.temple"
 graphic_alt	= "-"
@@ -959,8 +959,9 @@ sabotage	= 100
 sound		= "b_temple"
 sound_alt	= "b_generic"
 helptext	= _("\
-Makes one unhappy citizen content.  The Mysticism advance doubles\
- this effect.  With both Mysticism and the Oracle, 4 citizens are\
+Makes one unhappy citizen content.  The Monotheism advance doubles\
+ this effect, and Christianity triples it.  With the Oracle, 2 more\
+ citizens are\
  made content.  Does not affect citizens made unhappy by military\
  activity.\
 ")
@@ -1094,7 +1095,7 @@ This stunning technological achievement makes two content citizens\
 ")
 
 [building_darwins_voyage]
-name		= _("Darwin's Voyage")
+name		= _("Edict of Milan")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
@@ -1178,7 +1179,7 @@ name		= _("Hanging Gardens")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Pottery", "Player"
+      "Tech", "Medicine", "Player"
     }
 graphic	= "b.hanging_gardens"
 graphic_alt	= "-"
@@ -1219,11 +1220,11 @@ Works as if you had a Hydro Plant in every city on the same\
 ")
 
 [building_isaac_newtons_college]
-name		= _("Isaac Newton's College")
+name		= _("Antoine-Laurent de Lavoisier's College")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Theory of Gravity", "Player"
+      "Tech", "Chemistry", "Player"
     }
 graphic	= "b.isaac_newtons_college"
 graphic_alt	= "-"
@@ -1264,6 +1265,7 @@ name		= _("King Richard's Crusade")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
+      "Tech", "Christianity", "Player"
       "Tech", "Engineering", "Player"
     }
 graphic	= "b.king_richards_crusade"
@@ -1383,7 +1385,7 @@ name		= _("Michelangelo's Chapel")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Monotheism", "Player"
+      "Tech", "Christianity", "Player"
     }
 graphic	= "b.michelangelos_chapel"
 graphic_alt	= "-"
@@ -1446,11 +1448,11 @@ The city where this wonder is built will experience\
 ")
 
 [building_internet]
-name		= _("The Internet")
+name		= _("Internet2 Research Network")
 genus		= "SmallWonder"
  reqs	=
      { "type", "name", "range"
-       "Tech", "Computers", "Player"
+       "Tech", "Internet", "Player"
      }
 graphic	= "b.internet"
 graphic_alt	= "b.seti_program"
@@ -1472,7 +1474,7 @@ rule_name       = "Shakespeare's Theatre"       ; en_GB used originally
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Medicine", "Player"
+      "Tech", "Polytheism", "Player"
     }
 graphic	= "b.shakespeares_theatre"
 graphic_alt	= "-"
@@ -1550,11 +1552,11 @@ Creates a world senate that may prevent declarations of\
 ")
 
 [building_womens_suffrage]
-name		= _("Women's Suffrage")
+name		= _("National Police Network")
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
-      "Tech", "Industrialization", "Player"
+      "Tech", "Computer Networking", "Player"
     }
 graphic	= "b.womens_suffrage"
 graphic_alt	= "-"

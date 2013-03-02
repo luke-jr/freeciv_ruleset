@@ -1698,7 +1698,16 @@ name	= "Make_Content"
 value	= 1
 reqs	=
     { "type", "name", "range"
-      "Tech", "Mysticism", "Player"
+      "Tech", "Monotheism", "Player"
+      "Building", "Temple", "City"
+    }
+
+[effect_temple_2]
+name	= "Make_Content"
+value	= 1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Christianity", "Player"
       "Building", "Temple", "City"
     }
 
@@ -1770,7 +1779,7 @@ name	= "Give_Imm_Tech"
 value	= 2
 reqs	=
     { "type", "name", "range"
-      "Building", "Darwin's Voyage", "Player"
+      "Building", "Edict of Milan", "Player"
     }
 
 [effect_eiffel_tower]

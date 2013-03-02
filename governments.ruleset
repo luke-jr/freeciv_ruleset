@@ -186,9 +186,9 @@ Under Democracy, citizens govern directly by voting on issues.\
 ;------------------------------------------------------------------------
 [government_fundamentalism]
 
-name        = _("Fundamentalism")
+name        = _("Theocracy")
 reqs = { "type", "name", "range"
-         "tech", "Fundamentalism", "Player"
+         "tech", "Mysticism", "Player"
        }
 graphic     = "gov.fundamentalism"
 graphic_alt = "-"
@@ -197,12 +197,12 @@ ruler_male_title = _("High Priest %s")
 ruler_female_title = _("High Priestess %s")
 
 helptext = _("\
-Fundamentalism is a form of government organized around a central\
+Theocracy is a form of government organized around a central\
  set of beliefs. The beliefs, usually religious in nature, form\
  a rigid guideline for actions and reactions of both the rulers\
  and the people.\
 "), _("\
-In a fundamentalist society, the people and the rulers are entirely\
+In a theocratic society, the people and the rulers are entirely\
  devoted to their beliefs, and are usually willing to die to\
  preserve them.\
 "), _("\

@@ -18,8 +18,8 @@ end
 signal.connect("city_destroyed", "city_destroyed_callback")
 
 
-tevo_tech = find.tech_type("Theory of Evolution")
-darw_btype = find.building_type("Darwin's Voyage")
+tevo_tech = find.tech_type("Legalized Christianity")
+darw_btype = find.building_type("Edict of Milan")
 darw_id = darw_btype.id
 
 function building_built_handler(btype, city)
