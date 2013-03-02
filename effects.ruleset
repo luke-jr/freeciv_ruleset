@@ -1638,7 +1638,7 @@ value	= -25
 reqs	=
     { "type", "name", "range"
       "Tech", "Peer-to-peer", "Player"
-      "OutputType", "Gold", "Player"
+      "OutputType", "Gold", "Local"
     }
 
 [effect_p2p_1]
@@ -1647,7 +1647,7 @@ value	= 25
 reqs	=
     { "type", "name", "range"
       "Tech", "Peer-to-peer", "Player"
-      "OutputType", "Science", "Player"
+      "OutputType", "Science", "Local"
     }
 
 [effect_plastics_slowdown]

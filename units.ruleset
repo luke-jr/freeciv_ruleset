@@ -618,7 +618,7 @@ Musketeers are infantry equipped with early\
 name          = _("Fanatics")
 class         = "Land"
 tech_req      = "Fundamentalism"
-gov_req       = "Theocracy"
+gov_req       = "Fundamentalism"
 obsolete_by   = "None"
 graphic       = "u.fanatics"
 graphic_alt   = "-"

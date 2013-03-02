@@ -1284,6 +1284,7 @@ Works as if you had a Hydro Plant in every city on the same\
 
 [building_isaac_newtons_college]
 name		= _("Antoine-Laurent de Lavoisier's College")
+rule_name       = "Isaac Newton's College"
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"
@@ -1512,6 +1513,7 @@ The city where this wonder is built will experience\
 
 [building_internet]
 name		= _("Internet2 Research Network")
+rule_name       = "The Internet"
 genus		= "SmallWonder"
  reqs	=
      { "type", "name", "range"
@@ -1616,6 +1618,7 @@ Creates a world senate that may prevent declarations of\
 
 [building_womens_suffrage]
 name		= _("National Police Network")
+rule_name       = "Women's Suffrage"
 genus		= "SmallWonder"
 reqs	=
     { "type", "name", "range"

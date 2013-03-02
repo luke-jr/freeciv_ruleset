@@ -187,6 +187,7 @@ Under Democracy, citizens govern directly by voting on issues.\
 [government_fundamentalism]
 
 name        = _("Theocracy")
+rule_name       = "Fundamentalism"
 reqs = { "type", "name", "range"
          "tech", "Mysticism", "Player"
        }
