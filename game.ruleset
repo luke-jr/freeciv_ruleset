@@ -262,17 +262,12 @@ set =
       "tinyisles", FALSE, FALSE
       "alltemperate", TRUE, FALSE
       "separatepoles", FALSE, FALSE
-      "huts", 0, FALSE
-      "aifill", 0, FALSE
-      "dispersion", 0, FALSE
+      "dispersion", 2, FALSE
       "diplomacy", "DISABLED", FALSE
-      "contactturns", 0, FALSE
-      "revolen", 2, FALSE
-      "barbarians", "DISABLED", FALSE
       "techpenalty", 0, FALSE
       "startunits", "cccwwwxxxx", FALSE
       "specials", 350, FALSE
-      "borders", "DISABLED", FALSE
+      "borders", "ENABLED", FALSE
 ; For Apollo Program (remove when surviving effect is possible)
       "savepalace", TRUE, FALSE
     }
