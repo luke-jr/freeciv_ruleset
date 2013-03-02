@@ -999,6 +999,32 @@ reqs	=
       "Building", "Amphitheatre", "City"
     }
 
+[effect_clinic]
+name	= "Make_Content"
+value	= 1
+reqs	=
+    { "type", "name", "range"
+      "Building", "Medical Clinic", "City"
+    }
+
+[effect_clinic_1]
+name	= "Make_Content"
+value	= 1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Genetic Engineering", "Player"
+      "Building", "Medical Clinic", "City"
+    }
+
+[effect_clinic_2]
+name	= "Make_Content"
+value	= 1
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Biotechnology", "Player"
+      "Building", "Medical Clinic", "City"
+    }
+
 [effect_courthouse]
 name	= "Output_Waste_Pct"
 value	= 50
@@ -1606,6 +1632,24 @@ reqs	=
       "Building", "Space Structural", "City"
     }
 
+[effect_p2p]
+name	= "Output_Bonus"
+value	= -25
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Peer-to-peer", "Player"
+      "OutputType", "Gold", "Player"
+    }
+
+[effect_p2p_1]
+name	= "Output_Bonus"
+value	= 25
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Peer-to-peer", "Player"
+      "OutputType", "Science", "Player"
+    }
+
 [effect_plastics_slowdown]
 name    = "Slow_Down_Timeline"
 value   = 1
@@ -1709,6 +1753,25 @@ reqs	=
     { "type", "name", "range"
       "Tech", "Christianity", "Player"
       "Building", "Temple", "City"
+    }
+
+[effect_monastery]
+name	= "Output_Bonus"
+value	= 25
+reqs	=
+    { "type", "name", "range"
+      "Building", "Monastery", "City"
+      "OutputType", "Science", "Local"
+    }
+
+[effect_monastery2]
+name	= "Output_Bonus"
+value	= 25
+reqs	=
+    { "type", "name", "range"
+      "Building", "Monastery", "City"
+      "Tech", "Theology", "Player"
+      "OutputType", "Science", "Local"
     }
 
 [effect_university]
@@ -2078,6 +2141,15 @@ nreqs   =
     { "type", "name", "range"
       "UnitFlag", "NonMil", "Local"
       "UnitFlag", "NoVeteran", "Local"
+    }
+
+[effect_bitcoin]
+name	= "Output_Bonus"
+value	= 25
+reqs	=
+    { "type", "name", "range"
+      "Building", "Bitcoin", "World"
+      "OutputType", "Gold", "Local"
     }
 
 [effect_united_nations]

@@ -95,6 +95,28 @@ Entertains the citizens of a city, making 3 unhappy citizens content. \
  affect citizens made unhappy by military activity.\
 ")
 
+[building_clinic]
+name            = _("Medical Clinic")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Advanced Medicine", "Player"
+    }
+graphic	= "b.cathedral"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 20
+upkeep		= 2
+sabotage	= 100
+sound		= "b_generic"
+sound_alt	= "b_generic"
+helptext	= _("\
+Cares for the health of the citizens of a city, making 1 unhappy citizen content. \
+ (Two after the discovery of Genetic Enginnering,\
+ and three after discovery of Biotechnology.)  However, it does not\
+ affect citizens made unhappy by military activity.\
+")
+
 [building_aqueduct]
 name		= _("Aqueduct")
 genus		= "Improvement"
@@ -966,6 +988,27 @@ Makes one unhappy citizen content.  The Monotheism advance doubles\
  activity.\
 ")
 
+[building_monastery]
+name		= _("Monastery")
+genus		= "Improvement"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Monasticism", "Player"
+    }
+graphic	= "b.university"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 120
+upkeep		= 1
+sabotage	= 0
+sound		= "b_university"
+sound_alt	= "b_generic"
+; /* xgettext:no-c-format */
+helptext	= _("\
+A Monastery increases the science production of a city by 25%.\
+ With Theology, a total of 50%.\
+")
+
 [building_university]
 name		= _("University")
 genus		= "Improvement"
@@ -1028,6 +1071,26 @@ sound_alt	= "w_generic"
 helptext	= _("\
 City improvements which would normally have an upkeep of 1 are free\
  of upkeep, for all your cities on the same continent.\
+")
+
+[building_bitcoin]
+name		= _("Bitcoin")
+genus		= "GreatWonder"
+reqs	=
+    { "type", "name", "range"
+      "Tech", "Cryptocurrency", "Player"
+    }
+graphic	= "b.capitalization"
+graphic_alt	= "-"
+obsolete_by	= "None"
+build_cost	= 300
+upkeep		= 0
+sabotage	= 0
+sound		= "b_bank"
+sound_alt	= "w_generic"
+helptext	= _("\
+Increases trade by 25% in every city in every nation that has\
+ discovered the Internet.\
 ")
 
 [building_colossus]

@@ -91,7 +91,7 @@ graphic_alt = "-"
 
 [advance_amphibious_warfare]
 name     = _("Amphibious Warfare")
-req1     = "Navigation"
+req1     = "Biology"
 req2     = "Tactics"
 flags    = ""
 graphic     = "a.amphibious_warfare"
@@ -353,8 +353,8 @@ helptext = _("Having this advance decreases pollution\
 
 [advance_espionage]
 name     = _("Espionage")
-req1     = "Communism"
-req2     = "Democracy"
+req1     = "Tactics"
+req2     = "Cryptography"
 flags    = ""
 graphic     = "a.espionage"
 graphic_alt = "-"
@@ -657,6 +657,7 @@ req2     = "None"
 flags    = ""
 graphic     = "-"
 graphic_alt = "-"
+helptext = _("Reduces trade by 25% and increases science by 25%.")
 
 [advance_philosophy]
 name     = _("Philosophy")
@@ -690,14 +691,6 @@ req1     = "Mysticism"
 req2     = "None"
 flags    = ""
 graphic     = "a.polytheism"
-graphic_alt = "-"
-
-[advance_pottery]
-name     = _("Pottery")
-req1     = "None"
-req2     = "None"
-flags    = ""
-graphic     = "a.pottery"
 graphic_alt = "-"
 
 [advance_quantum_cryptography]
@@ -799,7 +792,7 @@ graphic_alt = "-"
 
 [advance_seafaring]
 name     = _("Seafaring")
-req1     = "Pottery"
+req1     = "Engineering"
 req2     = "Map Making"
 flags    = ""
 graphic     = "a.seafaring"
