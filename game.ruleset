@@ -198,9 +198,9 @@ skip_year_0 = 1
 
 ; What labels are used for positive and negative years.
 ; /* TRANS: year label (Common Era) */
-positive_label = _("CE")
+positive_label = _("AD")
 ; /* TRANS: year label (Before Common Era) */
-negative_label = _("BCE")
+negative_label = _("BC")
 
 [playercolors]
 background.r = 86
